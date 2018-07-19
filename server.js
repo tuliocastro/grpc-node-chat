@@ -4,6 +4,8 @@ var protoLoader = require('@grpc/proto-loader');
 const PROTO_PATH = "protos/chat.proto";
 
 const server = new grpc.Server();
+const SERVER_ADDRESS = "0.0.0.0:5001";
+
 var packageDefinition = protoLoader.loadSync(
     PROTO_PATH,
     {keepCase: true,
@@ -14,7 +16,6 @@ var packageDefinition = protoLoader.loadSync(
     });
 
 var proto = grpc.loadPackageDefinition(packageDefinition);
-
 
 let observers = [];
 
@@ -43,7 +44,7 @@ function main(){
 
     server.addService(proto.example.Chat.service, {join: join, send: send});
 
-    server.bind('0.0.0.0:80', grpc.ServerCredentials.createInsecure());
+    server.bind(SERVER_ADDRESS, grpc.ServerCredentials.createInsecure());
 
     server.start();
 

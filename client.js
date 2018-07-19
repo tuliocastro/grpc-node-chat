@@ -8,7 +8,7 @@ var rl = readline.createInterface({
 
 const PROTO_PATH = "protos/chat.proto";
 
-const REMOTE_SERVER = "52.8.239.102:80";
+const REMOTE_SERVER = "0.0.0.0:5001";
 
 let username;
 
