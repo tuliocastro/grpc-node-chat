@@ -1,8 +1,8 @@
 {
-  "name": "grpc-protobuf-tutorial",
+  "name": "grpc-node-server",
   "version": "1.0.0",
-  "description": "Implementing Remote Procedure Calls With gRPC and Protocol Buffers",
-  "main": "index.js",
+  "description": "Chat example using grpc and node",
+  "main": "server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node --expose-http2 server/index.js"
@@ -13,8 +13,8 @@
     "buffers",
     "rpc"
   ],
-  "author": "John Kariuki",
-  "license": "ISC",
+  "author": "Tulio Castro",
+  "license": "MIT",
   "dependencies": {
     "@grpc/proto-loader": "^0.3.0",
     "grpc": "^1.13.0"
