@@ -2,10 +2,10 @@
   "name": "grpc-node-server",
   "version": "1.0.0",
   "description": "Chat example using grpc and node",
-  "main": "server/index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --expose-http2 server/index.js"
+    "start": "node --expose-http2 server.js"
   },
   "keywords": [
     "grpc",
