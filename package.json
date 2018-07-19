@@ -1,6 +1,6 @@
 {
-  "name": "grpc-node-server",
-  "version": "1.0.0",
+  "name": "grpcnodeserver",
+  "version": "1.0.1",
   "description": "Chat example using grpc and node",
   "main": "server.js",
   "scripts": {
@@ -17,6 +17,11 @@
   "license": "MIT",
   "dependencies": {
     "@grpc/proto-loader": "^0.3.0",
-    "grpc": "^1.13.0"
+    "grpc": "^1.13.0",
+    "object-assign":"4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuliocastro/grpc-node-chat"
   }
 }
