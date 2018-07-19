@@ -4,12 +4,12 @@ Command line chat working with GRPC
 
 - Install Modules:
 
-    npm install
+    ``$ npm install``
 
 - Start Server:
 
-    node server
+    ``$ node server``
 
 - Start client:
 
-    node client
+    ``$ node client``
