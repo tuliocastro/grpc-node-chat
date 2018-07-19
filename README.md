@@ -13,3 +13,9 @@ Command line chat working with GRPC
 - Start client:
 
     ``$ node client``
+
+
+
+### TODO:
+
+- Code refactor
