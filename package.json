@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --expose-http2 index.js"
+    "start": "node --expose-http2 server/index.js"
   },
   "keywords": [
     "grpc",
