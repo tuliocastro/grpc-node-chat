@@ -17,8 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "@grpc/proto-loader": "^0.3.0",
-    "grpc": "^1.13.0",
-    "object-assign":"4.1.0"
+    "grpc": "^1.13.0"
   },
   "repository": {
     "type": "git",
