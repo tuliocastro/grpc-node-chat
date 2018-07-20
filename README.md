@@ -1,6 +1,8 @@
 # gRPC Chat Example with Node JS
 
-Command line chat working with GRPC
+This project creates a simple command line chat using gRPC and NodeJS to show a stream and bidirectional communication.
+
+
 
 - Install Modules:
 
@@ -13,9 +15,3 @@ Command line chat working with GRPC
 - Start client:
 
     ``$ node client``
-
-
-
-### TODO:
-
-- Code refactor
